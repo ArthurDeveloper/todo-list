@@ -17,7 +17,7 @@ export default function ListAddItemForm() {
                 } 
                 setValue('');
             }}>
-                +
+                Adicionar
             </button>
         </form>
     );

@@ -1,26 +1,23 @@
 import { useState } from 'react';
 import ListContext from './ListContext';
-import DeleteListItemButton from './DeleteListItemButton';
-import AssignmentDoneCheckbox from './AssignmentDoneCheckbox';
+import ListItem from './ListItem';
+
 
 export default function ListProvider({ children }) {
     const [items, setItems] = useState([]);
 
     const addItem = (item) => {
         setItems([...items, 
-            <li id={`item-${items.length}`}>
+            <ListItem id={items.length}>
                 {item}
-                <div className="list-item-buttons">
-                    <AssignmentDoneCheckbox />
-                    <DeleteListItemButton key={items.length}/>
-                </div>
-            </li>
+            </ListItem>
         ]);
     };
 
     const removeItem = (index) => {
-        const newItems = [...items];
-        newItems.splice(index, 1);
+        // Update values
+        let newItems = items.filter((item) => items.indexOf(item) !== index);
+        // Update indexes
         setItems(newItems);
     }
 

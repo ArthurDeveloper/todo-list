@@ -1,14 +1,17 @@
-li {
+body {
   display: flex;
+  justify-content: center;
   align-items: center;
-  padding-left: 15px;
   background-color: #FFFFFF;
-  border: 1px solid #C4C4C4;
-  width: 470px;
-  height: 40px;
 }
 
-.list-item-buttons {
-  margin-left: auto;
-  padding-right: 15px; 
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #3434D5;
+  width: 40vw;
+  height: 85vh;
+  border-radius: 25px;
+  box-shadow: 8px 8px 32px gray;
 }

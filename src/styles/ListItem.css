@@ -1,0 +1,15 @@
+li {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin: 1px;
+    width: 470px;
+    height: 40px;
+}
+  
+.list-item-buttons {
+    margin-left: auto;
+    padding-right: 15px; 
+}

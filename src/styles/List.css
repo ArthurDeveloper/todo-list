@@ -4,3 +4,8 @@ ul {
     align-items: center;
     list-style-type: none;
 }
+
+ul, li {
+    margin: 0;
+    padding: 0;
+}

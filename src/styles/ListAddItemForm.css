@@ -1,19 +1,36 @@
 form {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 20px;
     margin-bottom: 50px;
 }
 
-input[type="text"], button[type="submit"] {
-    margin: 5px;
-}
-
 input[type="text"] {
-    border: 1.7px solid #C4C4C4;
+    background: none;
+    color: #FFFFFF;
+    border: none;
+    border-bottom: 1.7px solid #C4C4C4;
     outline: none;
+    font-size: 1em;
+    width: 375px;
+    height: 50px;
 }
 
 input[type="text"]:focus {
     border: 1.7px solid #27f5eb;
+}
+
+button[type="submit"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #ac23ac;
+    color: #FFFFFF;
+    border: none;
+    font-size: 1.3em;
+    height: 52px;
 }

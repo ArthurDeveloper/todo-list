@@ -5,15 +5,14 @@ import { iosPlusEmpty } from 'react-icons-kit/ionicons/iosPlusEmpty';
 import ListContext from './ListContext';
 import '../styles/DeleteListItemButton.css'
 
-export default function DeleteListItemButton({ key }) {
+export default function DeleteListItemButton({ id }) {
 
     const { removeItem } = useContext(ListContext);
 
     return (
         <button className="btn-delete-list-item" 
                 onClick={(e) => { 
-                    const index = key;
-                    removeItem(index);
+                    removeItem(id);
                 }}>
             <Icon icon={androidDelete} />
         </button>
