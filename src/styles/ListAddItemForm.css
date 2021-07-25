@@ -4,6 +4,7 @@ form {
     align-items: center;
     margin-top: 20px;
     margin-bottom: 50px;
+    width: 100%;
 }
 
 input[type="text"] {
@@ -13,7 +14,7 @@ input[type="text"] {
     border-bottom: 1.7px solid #C4C4C4;
     outline: none;
     font-size: 1em;
-    width: 375px;
+    width: 70%;
     height: 50px;
 }
 

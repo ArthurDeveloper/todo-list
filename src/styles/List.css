@@ -3,6 +3,7 @@ ul {
     flex-direction: column;
     align-items: center;
     list-style-type: none;
+    width: 100%;
 }
 
 ul, li {

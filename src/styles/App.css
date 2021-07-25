@@ -15,3 +15,23 @@ body {
   border-radius: 25px;
   box-shadow: 8px 8px 32px gray;
 }
+
+@media (max-width: 1000px) {
+  .content {
+    width: 70vw;
+  }
+}
+
+@media (max-width: 680px) {
+  .content {
+    width: 90vw;
+    height: 90vh;
+  }
+}
+
+@media (max-width: 576px) {
+  .content {
+    width: 95vw;
+    height: 95vh;
+  }
+}
