@@ -7,7 +7,6 @@ lista para se orientar melhor nas suas atividades.
 - Adicionar tarefas
 - Remover tarefas
 - Marcar tarefas como concluídas
-- Caso você sem querer feche a aba do site no navegador, as tarefas continuam salvas quando você entrar novamente
 
 ### Sobre o código
 - O código está em licença MIT, mais informações no arquivo LICENSE.md
